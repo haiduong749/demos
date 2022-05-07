@@ -4,7 +4,7 @@
 #
 # Author:      ADMIN
 #
-# Created:     25/04/2022
+# Created:     06/05/2022
 # Copyright:   (c) ADMIN 2022
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
@@ -14,8 +14,10 @@ def main():
 
 if __name__ == '__main__':
     main()
-c = input(" Nhập nhiệt độ: ")
-
-f = (9*(int(c))/5)+32
-
-print(" Độ f: ", f)
+x = float(input("Nhap so: "))
+if x%2 == 0:
+    print("So " + str(x) + " la so chan")
+elif x%2 == 1:
+    print("So " + str(x) + " la so le")
+else:
+    print("So " + str(x) + " ko la so tu nhien")

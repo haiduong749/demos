@@ -4,7 +4,7 @@
 #
 # Author:      ADMIN
 #
-# Created:     25/04/2022
+# Created:     04/05/2022
 # Copyright:   (c) ADMIN 2022
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
@@ -14,8 +14,9 @@ def main():
 
 if __name__ == '__main__':
     main()
-c = input(" Nhập nhiệt độ: ")
 
-f = (9*(int(c))/5)+32
-
-print(" Độ f: ", f)
+a = input("Moi ban nhap chuoi")
+vtri = int(input("Nhap vao vi tri"))
+them = input("nhap ki tu muon them: ")
+x = a[:vtri] + them + a[vtri:]
+print(x)
